@@ -1,0 +1,61 @@
+.product{
+	border: 1px solid #ddd;
+}
+.product:hover{
+	border: 1px solid #f00;
+}
+.product-1{
+	position: relative;
+	
+	overflow:hidden ;
+}
+.product-1 img{
+	width: 100%;
+}
+.product-1 p{
+	width: 100%;
+	background-color: #f00;
+	height: 35px;
+	line-height: 35px;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+}
+.product-1 p a{
+	display: inline-block;
+	width: 50%;
+	text-decoration: none;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+}
+.product-1 p a.sm1{
+	float: left;
+}
+.product-1 p a.sm2{
+	float: right;
+}
+.product-1:hover p a{
+	border-right:1px solid #fff ;
+}
+.product-1:hover p{
+	transition: 0.5s;
+	position: absolute;
+	top: 86%;
+}
+.price{
+	font-size: 30px;
+	color: red;
+	
+}
+.product-2 a{
+	
+	color: #000000;
+	font-size: 20px;
+}
+.product-2:hover a{
+	color: red;
+}
+.product-2{
+	padding: 5px;
+}
